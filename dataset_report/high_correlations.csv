@@ -1,0 +1,13 @@
+feature_1,feature_2,corr
+is_ftp_login,ct_ftp_cmd,0.9988554882935945
+dbytes,dloss,0.9967111338314709
+sbytes,sloss,0.995771577240686
+swin,dwin,0.9804584289136614
+dpkts,dloss,0.9796120849360007
+ct_srv_src,ct_srv_dst,0.9794668130725328
+dpkts,dbytes,0.9734453279792993
+spkts,sloss,0.9718594116511157
+spkts,sbytes,0.9643932171558754
+ct_dst_ltm,ct_src_dport_ltm,0.9615176986568873
+ct_dst_src_ltm,ct_srv_dst,0.960321213106398
+ct_srv_src,ct_dst_src_ltm,0.9539519771685916

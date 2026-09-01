@@ -1,0 +1,21 @@
+{
+  "shared": [
+    "Remove 'id' because it is a unique identifier and not predictive.",
+    "Impute missing nominal values, especially 'service' (consider using a 'missing' category).",
+    "Encode nominal features ('proto', 'service', 'state') before modelling.",
+    "Use stratified cross-validation because the target distribution is strongly skewed.",
+    "Report macro-F1 as the main metric, with accuracy as a secondary metric."
+  ],
+  "knn": [
+    "Scale numeric features (StandardScaler or MinMaxScaler), because kNN is distance-based.",
+    "Consider removing highly correlated/redundant features to avoid overweighting repeated information.",
+    "Consider treating extreme outliers carefully (robust scaling or clipping) because kNN is sensitive to distance distortion.",
+    "Remove constant/near-constant features if they do not add useful information."
+  ],
+  "decision_tree": [
+    "Do not scale numeric features; decision trees are largely scale-invariant.",
+    "Keep original numeric values unless a value is clearly invalid.",
+    "Remove 'id' and any obviously useless constant features.",
+    "Tune tree depth and minimum leaf size to control overfitting, especially under class imbalance."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "model": "DecisionTree [baseline]",
+  "best_params": {
+    "classifier__class_weight": "balanced",
+    "classifier__criterion": "entropy",
+    "classifier__max_depth": 20,
+    "classifier__min_samples_leaf": 1,
+    "classifier__min_samples_split": 10
+  },
+  "best_cv_macro_f1_from_gridsearch": 0.5376624294606448,
+  "cv_accuracy_mean": 0.7527001302047642,
+  "cv_accuracy_std": 0.004912380601991243,
+  "cv_f1_macro_mean": 0.5376624294606448,
+  "cv_f1_macro_std": 0.014625503530007683,
+  "cv_f1_weighted_mean": 0.7741996254251314,
+  "cv_f1_weighted_std": 0.0035556765523284766
+}

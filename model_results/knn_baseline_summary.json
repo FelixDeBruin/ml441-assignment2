@@ -1,0 +1,15 @@
+{
+  "model": "kNN [baseline]",
+  "best_params": {
+    "classifier__n_neighbors": 5,
+    "classifier__p": 2,
+    "classifier__weights": "distance"
+  },
+  "best_cv_macro_f1_from_gridsearch": 0.4730493308444343,
+  "cv_accuracy_mean": 0.7676000146143723,
+  "cv_accuracy_std": 0.0006636022237231867,
+  "cv_f1_macro_mean": 0.4730493308444343,
+  "cv_f1_macro_std": 0.009436786220896162,
+  "cv_f1_weighted_mean": 0.7632235413204237,
+  "cv_f1_weighted_std": 0.00012916582849875125
+}

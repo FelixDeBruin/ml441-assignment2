@@ -1,0 +1,5 @@
+column,n_unique_including_na,n_unique_excluding_na,top_value,top_count,top_pct
+proto,133,133,tcp,123041,47.75
+service,13,12,,141321,54.85
+state,11,11,FIN,117164,45.47
+attack_cat,10,10,0,93000,36.09

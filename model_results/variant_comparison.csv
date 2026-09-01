@@ -1,0 +1,2 @@
+variant,knn_macro_f1_mean,knn_macro_f1_std,knn_accuracy_mean,tree_macro_f1_mean,tree_macro_f1_std,tree_accuracy_mean
+optimized,0.5074709277334083,0.006568770717795172,0.785934102029167,0.5875768744877055,0.007268623897093239,0.767464897804665

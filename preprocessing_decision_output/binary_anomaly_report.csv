@@ -1,0 +1,4 @@
+column,unique_values,value_counts,note
+is_ftp_login,"[np.int64(0), np.int64(1), np.int64(2), np.int64(4)]","{0: np.int64(254428), 1: np.int64(3219), 2: np.int64(10), 4: np.int64(16)}","Inspect whether this feature should be treated as binary, count-like, or left numeric."
+ct_ftp_cmd,"[np.int64(0), np.int64(1), np.int64(2), np.int64(4)]","{0: np.int64(254426), 1: np.int64(3215), 2: np.int64(16), 4: np.int64(16)}","Inspect whether this feature should be treated as binary, count-like, or left numeric."
+is_sm_ips_ports,"[np.int64(0), np.int64(1)]","{0: np.int64(253995), 1: np.int64(3678)}","Inspect whether this feature should be treated as binary, count-like, or left numeric."
